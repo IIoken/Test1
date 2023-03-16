@@ -8,7 +8,9 @@ public class Main {
         private boolean vegetarian;
         private String eats;
 
-        public Animal(){}
+        public Animal(){
+
+        }
 
         public Animal(boolean veg, String food){
             this.vegetarian = veg;
