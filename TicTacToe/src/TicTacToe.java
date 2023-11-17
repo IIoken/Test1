@@ -120,6 +120,10 @@ public class TicTacToe {
         }
         return "D"; // иначе возвращаем ничью
     }
+
+    public static void main(String[] args) {
+
+    }
 }
 
 

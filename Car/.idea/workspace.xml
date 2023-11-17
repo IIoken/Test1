@@ -4,7 +4,48 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55cefd2c-40f9-445f-a4f0-edef13a6b898" name="Changes" comment="" />
+    <list default="true" id="55cefd2c-40f9-445f-a4f0-edef13a6b898" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Animal/out/production/Animal/Animal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Animal/out/production/Animal/Cat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Animal/out/production/Animal/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Boriba/src/Playable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MonsterBoy/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MonsterBoy/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MonsterBoy/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MonsterBoy/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MonsterBoy/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MonsterBoy/MonsterBoy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MonsterBoy/out/production/MonsterBoy/Boy/Battle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MonsterBoy/out/production/MonsterBoy/Boy/Entity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MonsterBoy/out/production/MonsterBoy/Boy/Fighter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MonsterBoy/out/production/MonsterBoy/Boy/GiantSnake.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MonsterBoy/out/production/MonsterBoy/Boy/Human.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MonsterBoy/out/production/MonsterBoy/Boy/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MonsterBoy/out/production/MonsterBoy/Boy/Monster.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MonsterBoy/out/production/MonsterBoy/Boy/Tower.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MonsterBoy/out/production/MonsterBoy/Boy/Zombie.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MonsterBoy/src/Boy/Battle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MonsterBoy/src/Boy/Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MonsterBoy/src/Boy/Fighter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MonsterBoy/src/Boy/GiantSnake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MonsterBoy/src/Boy/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MonsterBoy/src/Boy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MonsterBoy/src/Boy/Monster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MonsterBoy/src/Boy/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MonsterBoy/src/Boy/Tower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MonsterBoy/src/Boy/Zombie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prob/out/production/Prob/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prob/src/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prob/src/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prob/src/Eat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prob/src/Edible.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prob/src/Mouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prob/src/Movable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Угодай число/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Boriba/src/Orc.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Boriba/src/Orc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hi/.idea/workspace.xml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +57,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -29,7 +73,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/lim32/IdeaProjects/Calculator"
+    "last_opened_file_path": "C:/Users/lim32/IdeaProjects/Prob"
   }
 }]]></component>
   <component name="RunManager">
