@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="35845e4a-4f0e-4dc1-b031-a48e97a70799" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Animal/out/production/Animal/Animal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Animal/out/production/Animal/Cat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Animal/out/production/Animal/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Boriba/src/Playable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess/src/ChessBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess/src/ChessPiece.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess/src/Horse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MonsterBoy/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MonsterBoy/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MonsterBoy/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MonsterBoy/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MonsterBoy/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MonsterBoy/MonsterBoy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MonsterBoy/out/production/MonsterBoy/Boy/Battle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MonsterBoy/out/production/MonsterBoy/Boy/Entity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MonsterBoy/out/production/MonsterBoy/Boy/Fighter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MonsterBoy/out/production/MonsterBoy/Boy/GiantSnake.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MonsterBoy/out/production/MonsterBoy/Boy/Human.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MonsterBoy/out/production/MonsterBoy/Boy/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MonsterBoy/out/production/MonsterBoy/Boy/Monster.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MonsterBoy/out/production/MonsterBoy/Boy/Tower.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MonsterBoy/out/production/MonsterBoy/Boy/Zombie.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MonsterBoy/src/Boy/Battle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MonsterBoy/src/Boy/Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MonsterBoy/src/Boy/Fighter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MonsterBoy/src/Boy/GiantSnake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MonsterBoy/src/Boy/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MonsterBoy/src/Boy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MonsterBoy/src/Boy/Monster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MonsterBoy/src/Boy/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MonsterBoy/src/Boy/Tower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MonsterBoy/src/Boy/Zombie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prob/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prob/src/Figure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prob/src/Parallelogram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prob/src/Quadrangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prob/src/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prob/src/Rhombuses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prob/src/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Угодай число/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Boriba/src/Orc.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Boriba/src/Orc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Car/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Car/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hi/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe/out/production/TicTacToe/TicTacToe.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TicTacToe/out/production/TicTacToe/TicTacToe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe/src/TicTacToe.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TicTacToe/src/TicTacToe.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2OW5nusvCM807I5eF1EKXkqFPGp" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/lim32/IdeaProjects/Animal"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="35845e4a-4f0e-4dc1-b031-a48e97a70799" name="Changes" comment="" />
+      <created>1681663670013</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681663670013</updated>
+    </task>
+    <servers />
+  </component>
+</project>
