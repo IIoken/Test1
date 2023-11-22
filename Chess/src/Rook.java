@@ -23,15 +23,15 @@ public class Rook extends ChessPiece {
     private boolean isHodLine(ChessBoard chessBoard, int line, int column, int toLine, int toColumn) {
         int l = 0;
 
-        for (int i = 1; i < Math.abs(toLine - line); i++) {
+        for (int i = 1; i < Math.abs(toLine - line); i += 1) {
             if (toLine > line) {
                 l = line + 1;
             } else l = line - 1;
         }
-        if ((chessBoard.board[l][column] == null) || (chessBoard.board[toLine][toColumn] == null)) {
+        if (chessBoard.board[l][column] == null) {
             return true;
         } else {
-            if (l == toLine && (chessBoard.board[line][column].getColor() != chessBoard.board[toLine][toColumn].getColor())) {
+            if ((chessBoard.board[toLine][toColumn] != null) || (l == toLine && (chessBoard.board[line][column].getColor() != chessBoard.board[toLine][toColumn].getColor()))) {
                 return true;
             } else return false;
         }
@@ -40,19 +40,19 @@ public class Rook extends ChessPiece {
     private boolean isHodColumn(ChessBoard chessBoard, int line, int column, int toLine, int toColumn) {
         int c = 0;
 
-        for (int i = 1; i < Math.abs(toColumn - column); i++) {
+        for (int i = 1; i < Math.abs(toColumn - column); i += 1) {
             if (toColumn > column) {
                 c = column + 1;
             } else c = column - 1;
         }
-        if ((chessBoard.board[line][c] == null) || (chessBoard.board[toLine][toColumn] == null)) {
+        if ((chessBoard.board[line][c] == null) || (chessBoard.board[toLine][toColumn] != null)) {
             return true;
         } else {
-            if (c == toColumn && (chessBoard.board[line][column].getColor() != chessBoard.board[toLine][toColumn].getColor())) {
+            if  (c == toColumn && (chessBoard.board[line][column].getColor() != chessBoard.board[toLine][toColumn].getColor())) {
                 return true;
-            } else return false;
-
+            }else return false;
         }
+
     }
 
     @Override
