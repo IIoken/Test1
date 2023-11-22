@@ -15,13 +15,13 @@ public class King extends ChessPiece {
 
     @Override
     public boolean canMoveToPosition(ChessBoard chessBoard, int line, int column, int toLine, int toColumn) {
-//        if (line != toLine && column != toColumn) {
+
         if (toLine >= 0 && toLine <= 7 && toColumn >= 0 && toColumn <= 7) {
             boolean b = (toLine == line - 1) || (toLine == line) || (toLine == line + 1);
             if (
-                       ((toColumn == column - 1) && b)
-                    || ((toColumn == column + 1) && b)
-                    || ((toColumn == column) && ((toLine == line -1) || (toLine == line + 1)))
+                       ((toColumn == column - 1) && b && isHodKing(chessBoard,line,column,toLine,toColumn))
+                    || ((toColumn == column) && ((toLine == line -1) || (toLine == line + 1)) && isHodKing(chessBoard,line,column,toLine,toColumn))
+                    || ((toColumn == column + 1) && b && isHodKing(chessBoard,line,column,toLine,toColumn))
                     && (!isUnderAttack(chessBoard, toLine, toColumn))
             ) {
                 return true;
@@ -29,7 +29,13 @@ public class King extends ChessPiece {
         } else {
             return false;
         }
-//        } else return false;
+
+    }
+
+    private boolean isHodKing(ChessBoard chessBoard, int line, int column, int toLine, int toColumn) {
+        if ((chessBoard.board[toLine][toColumn] == null) || (chessBoard.board[line][column].getColor() != chessBoard.board[toLine][toColumn].getColor())){
+            return true;
+        }return false;
     }
 
     @Override

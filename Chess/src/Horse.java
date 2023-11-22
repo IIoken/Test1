@@ -30,7 +30,7 @@ public class Horse extends ChessPiece {
     }
 
     private boolean isHodHorse(ChessBoard chessBoard, int line, int column, int toLine, int toColumn) {
-        if (chessBoard.board[toLine][toColumn] == null || chessBoard.board[line][column].getColor() != chessBoard.board[toLine][toColumn].getColor()){
+        if ((chessBoard.board[toLine][toColumn] == null) || (chessBoard.board[line][column].getColor() != chessBoard.board[toLine][toColumn].getColor())){
             return true;
         }return false;
     }

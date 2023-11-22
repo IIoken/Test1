@@ -28,14 +28,14 @@ public class Rook extends ChessPiece {
                 l = line + 1;
             } else l = line - 1;
         }
-        if (chessBoard.board[l][column] == null) {
+        if ((chessBoard.board[l][column] == null) || (chessBoard.board[toLine][toColumn] == null)) {
             return true;
         } else {
             if (l == toLine && (chessBoard.board[line][column].getColor() != chessBoard.board[toLine][toColumn].getColor())) {
                 return true;
-            }else return false;
+            } else return false;
         }
-        }
+    }
 
     private boolean isHodColumn(ChessBoard chessBoard, int line, int column, int toLine, int toColumn) {
         int c = 0;
@@ -45,12 +45,12 @@ public class Rook extends ChessPiece {
                 c = column + 1;
             } else c = column - 1;
         }
-        if (chessBoard.board[line][c] == null) {
+        if ((chessBoard.board[line][c] == null) || (chessBoard.board[toLine][toColumn] == null)) {
             return true;
         } else {
-           if (c == toColumn && (chessBoard.board[line][column].getColor() != chessBoard.board[toLine][toColumn].getColor())){
+            if (c == toColumn && (chessBoard.board[line][column].getColor() != chessBoard.board[toLine][toColumn].getColor())) {
                 return true;
-            }else return false;
+            } else return false;
 
         }
     }
