@@ -46,9 +46,6 @@ public class Bishop extends ChessPiece {
             } else return false;
         }
 
-
-
-    //    chessBoard.board[toLine][toColumn] == null || chessBoard.board[line][column].getColor() != chessBoard.board[toLine][toColumn].getColor()
     @Override
     public String getSymbol() {
         return "B";
