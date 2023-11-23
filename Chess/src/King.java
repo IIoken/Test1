@@ -16,7 +16,7 @@ public class King extends ChessPiece {
     @Override
     public boolean canMoveToPosition(ChessBoard chessBoard, int line, int column, int toLine, int toColumn) {
 
-        if (toLine >= 0 && toLine <= 7 && toColumn >= 0 && toColumn <= 7) {
+        if (canPosition(toLine,toColumn)) {
             boolean b = (toLine == line - 1) || (toLine == line) || (toLine == line + 1);
             if (
                        ((toColumn == column - 1) && b && isHodKing(chessBoard,line,column,toLine,toColumn))

@@ -13,7 +13,7 @@ public class Bishop extends ChessPiece {
     @Override
     public boolean canMoveToPosition(ChessBoard chessBoard, int line, int column, int toLine, int toColumn) {
         if (line != toLine && column != toColumn) {
-            if (toLine >= 0 && toLine <= 7 && toColumn >= 0 && toColumn <= 7) {
+            if (canPosition(toLine,toColumn)) {
 //                Движение по горизонтали в верх
                 if ((toLine - line) == (toColumn - column) && isHodBishop(chessBoard, line, column, toLine, toColumn)
 //                        в низ

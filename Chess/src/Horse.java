@@ -14,7 +14,7 @@ public class Horse extends ChessPiece {
         // Конечная позиция не равна начальной
         if (toLine != line && toColumn != column) {
             //проверил что бы не выходило за доску
-            if (toLine >= 0 && toColumn <= 7 && toColumn >= 0 && toLine <= 7) {
+            if (canPosition(toLine,toColumn)) {
             //Расписал как ходит конь, буковй "Г"
                 if ((toLine == (line - 2) && toColumn == (column + 1)) && isHodHorse(chessBoard,line,column,toLine,toColumn)) return true;
                 else if ((toLine == (line - 2) && toColumn == (column - 1)) && isHodHorse(chessBoard,line,column,toLine,toColumn)) return true;

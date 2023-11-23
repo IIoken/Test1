@@ -1,5 +1,3 @@
-import java.util.Objects;
-
 public class Rook extends ChessPiece {
     public Rook(String color) {
         super(color);
@@ -12,7 +10,7 @@ public class Rook extends ChessPiece {
 
     @Override
     public boolean canMoveToPosition(ChessBoard chessBoard, int line, int column, int toLine, int toColumn) {
-        if (toLine >= 0 && toLine <= 7 && toColumn >= 0 && toColumn <= 7) {
+        if (canPosition(toLine, toColumn)) {
             if (((toLine != line) && (toColumn == column) && isHodLine(chessBoard, line, toLine, column, toColumn))
                     || ((toLine == line) && (toColumn != column) && isHodColumn(chessBoard, line, toLine, column, toColumn))) {
                 return true;
@@ -20,40 +18,36 @@ public class Rook extends ChessPiece {
         } else return false;
     }
 
+
     private boolean isHodLine(ChessBoard chessBoard, int line, int column, int toLine, int toColumn) {
         int l = 0;
-
-        for (int i = 1; i < Math.abs(toLine - line); i += 1) {
+        for (int i = 1; i < Math.abs(toLine - line); i++) {
             if (toLine > line) {
                 l = line + 1;
             } else l = line - 1;
         }
-        if (chessBoard.board[l][column] == null) {
+        if (chessBoard.board[l][column] == null || chessBoard.board[toLine][toColumn] == null) {
             return true;
-        } else {
-            if ((chessBoard.board[toLine][toColumn] != null) || (l == toLine && (chessBoard.board[line][column].getColor() != chessBoard.board[toLine][toColumn].getColor()))) {
-                return true;
-            } else return false;
-        }
+        } else if (l == toLine && (chessBoard.board[line][column].getColor() != chessBoard.board[toLine][toColumn].getColor())) {
+            return true;
+        } else return false;
     }
+
 
     private boolean isHodColumn(ChessBoard chessBoard, int line, int column, int toLine, int toColumn) {
         int c = 0;
-
-        for (int i = 1; i < Math.abs(toColumn - column); i += 1) {
+        for (int i = 1; i < Math.abs(toColumn - column); i++) {
             if (toColumn > column) {
                 c = column + 1;
             } else c = column - 1;
         }
-        if ((chessBoard.board[line][c] == null) || (chessBoard.board[toLine][toColumn] != null)) {
+        if (chessBoard.board[line][c] == null || chessBoard.board[toLine][toColumn] == null) {
             return true;
-        } else {
-            if  (c == toColumn && (chessBoard.board[line][column].getColor() != chessBoard.board[toLine][toColumn].getColor())) {
+        } else if (c == toColumn && (chessBoard.board[line][column].getColor() != chessBoard.board[toLine][toColumn].getColor())) {
                 return true;
-            }else return false;
-        }
-
+            } else return false;
     }
+
 
     @Override
     public String getSymbol() {

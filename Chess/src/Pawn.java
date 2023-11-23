@@ -11,7 +11,7 @@ public class Pawn extends ChessPiece {
     @Override
     public boolean canMoveToPosition(ChessBoard chessBoard, int line, int column, int toLine, int toColumn) {
         if (toLine != line) {
-            if (toLine >= 0 && line <= 7 && toColumn == column) {
+            if (canPosition(toLine,toColumn)) {
                 if (
                         ((toLine == line + 2) && line == 1) && (this.getColor() == "White") // шаг на 2 клетки
                                 && chessBoard.board[line + 2][column] == null && chessBoard.board[line + 1][column] == null // проверяем что клетка пустая если мы ходим на 2 клетки

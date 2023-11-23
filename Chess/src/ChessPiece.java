@@ -10,5 +10,10 @@ public abstract class ChessPiece {
 
     public abstract boolean canMoveToPosition(ChessBoard chessBoard, int line, int column, int toLine, int toColumn);
     public abstract String getSymbol();
+    public boolean canPosition(int toLine, int toColumn) {
+        if (toLine >= 0 && toLine <= 7 && toColumn >= 0 && toColumn <= 7) {
+            return true;
+        } return false;
+    }
 
 }
