@@ -21,7 +21,7 @@ public class Rook extends ChessPiece {
 
     private boolean isHodLine(ChessBoard chessBoard, int line, int column, int toLine, int toColumn) {
         int l = 0;
-        for (int i = 1; i < Math.abs(toLine - line); i++) {
+        for (int i = 1; i < Math.abs(toLine - line); i+=1) {
             if (toLine > line) {
                 l = line + 1;
             } else l = line - 1;
@@ -36,7 +36,7 @@ public class Rook extends ChessPiece {
 
     private boolean isHodColumn(ChessBoard chessBoard, int line, int column, int toLine, int toColumn) {
         int c = 0;
-        for (int i = 1; i < Math.abs(toColumn - column); i++) {
+        for (int i = 1; i < Math.abs(toColumn - column); i+=1) {
             if (toColumn > column) {
                 c = column + 1;
             } else c = column - 1;
