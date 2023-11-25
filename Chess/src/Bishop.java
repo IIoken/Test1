@@ -15,11 +15,9 @@ public class Bishop extends ChessPiece {
         if (line != toLine && column != toColumn) {
             if (canPosition(toLine,toColumn)) {
 //                Движение по горизонтали в верх
-                if ((toLine - line) == (toColumn - column) && isHodBishop(chessBoard, line, column, toLine, toColumn)
+                return (toLine - line) == (toColumn - column) && isHodBishop(chessBoard, line, column, toLine, toColumn)
 //                        в низ
-                        || (toLine - line) == -1 * (toColumn - column) && isHodBishop(chessBoard, line, column, toLine, toColumn)) {
-                    return true;
-                } else return false;
+                        || (toLine - line) == -1 * (toColumn - column) && isHodBishop(chessBoard, line, column, toLine, toColumn);
             } else return false;
         } else return false;
     }
@@ -27,7 +25,7 @@ public class Bishop extends ChessPiece {
     private boolean isHodBishop(ChessBoard chessBoard, int line, int column, int toLine, int toColumn) {
         int l = 0;
         int c = 0;
-        for (int i = 1; i < Math.abs(toLine - line); i = i + 1) {
+        for (int i = 1; i < Math.abs(toLine - line); i++) {
             if (toLine > line) {
                 l = line + 1;  // Движение в ввехр
                 if (toColumn > column) {
@@ -41,9 +39,7 @@ public class Bishop extends ChessPiece {
             }}
             if (chessBoard.board[l][c] == null) { // Проверка что клетка пуста
                 return true;
-            } else if (l == toLine && c == toColumn && !Objects.equals(chessBoard.board[toLine][toColumn].getColor(), chessBoard.board[line][column].getColor())) {
-                return true;
-            } else return false;
+            } else return l == toLine && c == toColumn && !Objects.equals(chessBoard.board[toLine][toColumn].getColor(), chessBoard.board[line][column].getColor());
         }
 
     @Override

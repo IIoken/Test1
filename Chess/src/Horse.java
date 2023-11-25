@@ -1,3 +1,5 @@
+import java.util.Objects;
+
 public class Horse extends ChessPiece {
 
     public Horse(String color) {
@@ -23,16 +25,13 @@ public class Horse extends ChessPiece {
                 else if ((toLine == (line - 1) && toColumn == (column + 2)) && isHodHorse(chessBoard,line,column,toLine,toColumn)) return true;
                 else if ((toLine == (line - 1) && toColumn == (column - 2)) && isHodHorse(chessBoard,line,column,toLine,toColumn)) return true;
                 else if ((toLine == (line + 1) && toColumn == (column + 2)) && isHodHorse(chessBoard,line,column,toLine,toColumn)) return true;
-                else if ((toLine == (line + 1) && toColumn == (column - 2)) && isHodHorse(chessBoard,line,column,toLine,toColumn)) return true;
-                else return false;
+                else return (toLine == (line + 1) && toColumn == (column - 2)) && isHodHorse(chessBoard, line, column, toLine, toColumn);
             }else return false;
         }else return false;
     }
 
     private boolean isHodHorse(ChessBoard chessBoard, int line, int column, int toLine, int toColumn) {
-        if ((chessBoard.board[toLine][toColumn] == null) || (chessBoard.board[line][column].getColor() != chessBoard.board[toLine][toColumn].getColor())){
-            return true;
-        }return false;
+        return (chessBoard.board[toLine][toColumn] == null) || !Objects.equals(chessBoard.board[toLine][toColumn].getColor(), chessBoard.board[line][column].getColor());
     }
 
     @Override
